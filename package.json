@@ -9,6 +9,6 @@
     "react-hook-form": "^5.5.1",
     "react-refresh": "^0.8.1",
     "react-router-dom": "^5.1.2",
-    "shadow-cljs": "^2.8.94"
+    "shadow-cljs": "^2.8.98"
   }
 }
