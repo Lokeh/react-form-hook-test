@@ -31,15 +31,7 @@
 
     (.log js/console obj)
     (d/form 
-      {:on-submit (fn [e]
-                    (.log js/console "on-submit")
-                    (handleSubmit fn-submit)
-                    (.preventDefault e)
-                    (.log js/console "errors:")
-                    (.log js/console errors)
-                    (.log js/console "getValues():")
-                    (.log js/console (getValues))
-                    )}
+     {:on-submit (handleSubmit fn-submit)}
       (d/div
         (.createElement r "input"
                         #js {:ref (register #js {:name "foo"}
